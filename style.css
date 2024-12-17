@@ -13,8 +13,8 @@
     background-color: #fff;
     width: 100%;
     color: #333;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
 }
 
 .first-div {
@@ -69,7 +69,7 @@
         align-items: center;
         background: #fff;
         padding: 19px 32px;
-    border-top: 1px solid #333;
+    border-top: 1px solid #e1e1e1;
     max-width: 1350px;
         justify-items: center;
         margin: 0 auto;
@@ -336,6 +336,14 @@ h1 {
     max-width: 1350px;
         justify-items: center;
         margin: 0 auto;
+}
+.texttt h1 {
+    font-size: 30px;
+        margin: 10px 0;
+        font-weight: 900;
+        color: #333;
+        padding: 8px 0px;
+        height: 50px;
 }
 .warr{
 background: #f7f7f7;
@@ -642,6 +650,7 @@ p {
             justify-items: center;
             margin: 0 auto;
             margin-bottom: 70px;
+    
 }
 .items img{
     height: 60px;
@@ -663,6 +672,15 @@ p {
         max-width: 1350px;
             justify-items: center;
             margin: 0 auto;
+}
+.em h1{
+    
+    font-size: 26px;
+        margin: 10px 0px;
+        font-weight: 600;
+        color: #333;
+        padding: 7px 0px;
+        height: 50px;
 }
  .email-form {
      text-align: center;
@@ -729,12 +747,20 @@ padding: 45px 63px;
     padding-left: 34%;
     padding-top: 40px;
 }
+.cen h1 {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #333;
+    padding: 8px 0px;
+    height: 50px;
+}
 
 .btn23 {
     color: #333;
 }
 .btn-div1{
-    padding-left: 105px;
+    padding-left: 148px;
 }
 .cenn{
     display: flex;
@@ -744,10 +770,10 @@ padding: 45px 63px;
 .c1{
     display: flex;
     gap: 20px;
-    width: 41%;
+    width: 44%;
 }
 .c1 h3{
-    border-left: 1px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
     padding-left: 20px;
 }.c2{
     display: flex;
@@ -759,6 +785,7 @@ padding: 45px 63px;
 .c3{
     display: flex;
         padding-top: 50px;
+        width: 102%;
 }
 
 .lii {
@@ -891,4 +918,8 @@ padding: 0px 21px;
     margin-bottom: 20px;
     height: 100px;
 
+}
+a:hover{
+    color: #285f6e;
+    text-decoration: underline;
 }
