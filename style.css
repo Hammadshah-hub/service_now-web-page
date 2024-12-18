@@ -73,7 +73,7 @@
         align-items: center;
         background: #fff;
         padding: 12px 20px;
-    border-top: 1px solid #e1e1e1;
+   
     max-width: 1350px;
         justify-items: center;
         margin: 0 auto;
@@ -173,7 +173,7 @@ form{
             background: #032D42E6;
                 width: 50%;
                     padding: 15px 40px;
-                    border-radius: 25px;
+                    border-radius: 15px;
                   
 }
 form h1{
@@ -222,7 +222,7 @@ p{
 .second{
     background-color: #dcedfb;
     display: flex;
-        padding: 24px 225px;
+        padding: 20px 225px;
         margin-bottom: -10px;
         
        
@@ -359,19 +359,19 @@ padding: 12px 20px;
 }
 
 .texttt{
-padding: 70px 42px;
+padding: 37px 42px;
     max-width: 1350px;
     justify-items: center;
     margin: 0 auto;
 }
 .texttt h1 {
-            font-size: 36px;
-                margin: 10px 0;
-                font-weight: 600;
-                color: #333;
-                padding: 0px 12px;
-                height: 50px;
-                margin-bottom: 40px;
+                font-size: 36px;
+                    margin: 38px 0;
+                    font-weight: 600;
+                    color: #333;
+                    padding: 0px 12px;
+                    height: 50px;
+                    margin-bottom: 20px;
 }
 .btn09{
     
@@ -498,7 +498,7 @@ h1 {
 .wrapper i {
     height: 50px;
     width: 50px;
-    background: rgb(118, 233, 118);
+    background: transparent;
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
@@ -507,8 +507,13 @@ h1 {
     top: 50%;
     font-size: 1.25 rem;
     transform: translateY(-50%);
+    border: 1px solid black;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.5s;
 
+}
+.wrapper i:hover {
+    background: rgba(0, 0, 0, 0.23)
 }
 
 .wrapper i:first-child {
@@ -567,7 +572,7 @@ h1 {
         border-radius: 8px;
         display: flex;
         cursor: pointer;
-        width: 85%;
+        width: 90%;
         padding-bottom: 15px;
         align-items: center;
         justify-content: center;
@@ -666,11 +671,11 @@ p {
 }
 
 .form2 h1 {
-    color: #333;
-        font-weight: 700;
-        margin-bottom: -39px;
-        font-size: 33px;
-        width: 100%;
+        color: #333;
+            font-weight: 800;
+            margin-bottom: -39px;
+            font-size: 30px;
+            width: 100%;
 }
 
 .form2 h1 span {
@@ -786,14 +791,17 @@ padding: 45px 63px;
 .ff{
     border-top: 1px solid #e1e1e1;
     display: flex;
-        gap: 119px;
+        gap: 80px;
         padding-top: 40px;
+        
 }
 .footer .ff h2{
     margin-bottom: 20px;
+    font-size: 16px;
 }
 .footer .ff a {
     margin-bottom: 20px;
+    font-size: 16px;
 }
 .li{
     margin-bottom: 20px;
@@ -884,16 +892,22 @@ padding: 45px 63px;
 .wrapper2 i {
     height: 50px;
     width: 50px;
-    background: rgb(118, 233, 118);
+    background: transparent;
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
     cursor: pointer;
     position: absolute;
     top: 50%;
+    border: 1px solid black;
     font-size: 1.25 rem;
     transform: translateY(-50%);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.5s;
+
+}
+.wrapper2 i:hover {
+    background: rgba(0, 0, 0, 0.23)
 
 }
 
@@ -1026,3 +1040,45 @@ a:hover{
                 height: 114px;
         
 }
+
+
+#left{
+top: -39px;
+    margin-left: 84%;
+}
+#right{
+        top: -39px;
+            margin-right: 73px;
+}
+
+#left2 {
+    top: -39px;
+    margin-left: 84%;
+}
+
+#right2 {
+    top: -39px;
+    margin-right: 73px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
