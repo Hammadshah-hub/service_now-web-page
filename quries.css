@@ -346,12 +346,12 @@ form {
     color: #333;
     height: 81px;
 }
-.cenn {
-    display: flex;
-    flex-direction: column;
-    padding-top: 70px;
-    align-items: center;
-}
+        .cenn {
+            display: flex;
+            flex-direction: column;
+            padding-top: 70px;
+            /* align-items: center; */
+        }
 .c1 {
     display: flex;
     gap: 20px;
