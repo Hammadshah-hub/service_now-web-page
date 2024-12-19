@@ -470,22 +470,161 @@ form {
 
  }
 @media (max-width: 360px){
-    .wrapper .carousel {
-            display: grid;
-            grid-auto-flow: column;
-            grid-auto-columns: calc((100% / 1) - 12px);
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            scroll-behavior: smooth;
-            scrollbar-width: 0;
+        form {
+                background: #032D42E6;
+                width: 100%;
+                padding: 15px 17px;
+                border-radius: 0px;
+            }
+                form h1 {
+               color: #62D84E;
+                   font-size: 26px;
+                    max-width: 477px;
+                    font-weight: 900;
+  }
+          p {
+              font-size: 20px;
+              font-weight: 500;
+              color: #fff;
+              line-height: 1.5;
+              padding-top: 26px;
+          }
+        .btn-div111 {
+          display: block;
+      }
+          .btn1 {
+              
+              width: 100%;
+          }
+
+ .first1{
+    
+            /* width: 132%; */
+            height: 223px;
+        
+ }
+ .container{
+    padding: 0px 0px;
+ }
+ .third{
+    padding: 30px 12px;
+ }
+ .container h1{
+    font-size: 20px;
+    height: 30px;
+ }
+ .btn5{
+        padding: 12px 1px;
+        padding-top: 20px;
+ }
+ .arrow11{
+    margin-left: 0px;
+ }
+ .arrow1 {
+     height: 32px;
+     margin-top: 13px;
+ }
+ .buttons{
+    padding-bottom: 40px;
+ }
+ .texttt{
+            padding: 0px 10px;
+            padding-bottom: 20px;
+ }
+ .five{
+            padding: 41px 11px;
+ }
+ .vid{
+            height: 198px;
+                border-radius: 15px;
+                max-width: 100%;
+ }
+ .form1 h1 {
+     color: #62D84E;
+     font-weight: 800;
+     font-size: 27px;
+     width: 63%;
+ }
+ .form1 p {
+     font-size: 20px;
+     color: #fff;
+     line-height: 1.4;
+     padding-top:70px;
+     margin-top: 0px;
+ }
+ .h11{
+    padding: 12px 22px;
+}
+.five2{
+    gap: 0px;
+}
+p{
+    line-height: 1.4;
+}
+.btn-div {
+    display: flex;
+    gap: 16px;
+}
+.ttt{
+    gap: 30px;
+}
+.items{
+    padding-left: 0px;
+}
+.texttt41{
+    padding: 40px 10px;
+}
+.em{
+            padding: 34px 11px;
+}
+.em h1{
+    text-align: center;
+}
+.email-form button {
+   width: 100%;
+   margin-left: 0px;
+}
+        .email-btn {
+            padding-top: 13px;
         }
-                .wrapper2 .carousel2 {
-                    display: grid;
-                    grid-auto-flow: column;
-                    grid-auto-columns: calc((100% / 1) - 12px);
-                    overflow-x: auto;
-                    scroll-snap-type: x mandatory;
-                    scroll-behavior: smooth;
-                    scrollbar-width: 0;
-                }
+.footer{
+    padding: 45px 13px;
+    gap: 0px;
+}
+.last-div {
+    padding: 45px 10px;
+}
+
+        .cen h1 {
+            font-size: 20px;
+            margin: 0px; 
+            font-weight: 600;
+            color: #333;
+            height: 0px;
+        }
+    .btn-div1{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .btn23{
+        width: 100%;
+    }
+        .c1 {
+            display: block;
+        }
+        .cenn {
+            display: block;
+        }
+        .c1 h3{
+            width: 300px;
+            padding-left: 0px;
+            padding-top: 15px;
+            border-left: none;
+        }
+                        .c3 {
+                            display: block;
+                            width: 100%;
+                            align-items: center;
+                            line-height: 2.5;
+                        }
 }
