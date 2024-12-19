@@ -176,6 +176,10 @@ button.Started:hover {
        
    
 }
+.first1{
+    background-image: none;
+      
+}
 .frt{
 max-width: 1350px;
     margin: 0 auto;
@@ -681,7 +685,7 @@ p {
     font-weight: 500;
     color: #fff;
     line-height: 1.5;
-        margin-top: 76px;
+        padding-top: 76px;
     margin-bottom: 30px;
 }
 
