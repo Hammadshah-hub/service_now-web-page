@@ -352,6 +352,11 @@ form {
     padding-top: 70px;
     align-items: center;
 }
+.c1 {
+    display: flex;
+    gap: 20px;
+
+}
 .c2 {
     display: flex;
     gap: 26px;
